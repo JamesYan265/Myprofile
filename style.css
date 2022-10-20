@@ -299,7 +299,9 @@ section {
 
 /* Project */
 .projectSection {
-    background-color: rgba(220, 220, 220,0.1);
+    background-color: rgba(220, 220, 220,0.7);
+    margin-bottom: 0 !important; 
+    padding-bottom: 50px !important;
 }
 
 .projectSection h1 {
@@ -348,6 +350,12 @@ section {
 
 .project:hover .overlay {
     opacity: 1;
+}
+
+.project h6 {
+    color: #888;
+    font-weight: 800;
+    
 }
 
 /* footer */
