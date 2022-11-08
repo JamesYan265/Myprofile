@@ -101,6 +101,7 @@ h1,h2,h3,h4,h5,h6,display-4 {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 47, 47, 0.8);
+    min-height: 900px;
 }
 
 .infosection .container {
@@ -383,9 +384,23 @@ section {
 
 @media only screen and (max-width: 1800px) {
     /* feature */
+    .information h1 {
+        position: static;
+        font-size: 2rem;
+    }
+
+    .infotext h5 {
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    /* Myinfo section */
     .col-img {
         background-size: cover;
     }
+    
 }
 
 
@@ -401,7 +416,6 @@ section {
     .information h1 {
         position: static;
         font-size: 2rem;
-
     }
 
     .infotext {
